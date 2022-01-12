@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sala de treinamento</title>
+    <link rel="stylesheet" href="../../../css/style-justin.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h3 class="treinamento">
+            Olá Justin, que bom que se apresentou para o treino hoje, o dia da luta está chegando e você deve chegar
+            preparado para conquistar a vitótia.
+        </h3>
+        <h4 class="instrucao">Você pode treinar a modalidade que quiser,<br> basta escolher entre 1 e 4;<br> Após o treino você poderá lutar.
+        </h4>
+    </div>
+    <div class="clickTreinar">Clique na força para treinar.
+             <button id='btnTreinar' class="btn" onclick="treino()">Força atual:
+                 <span class="frc">7</span>
+             </button>
+    </div>    
+    <div class="modalidades">
+        <ol>1-MMA</ol>
+        <ol>2-Jiu-jitsu</ol>
+        <ol>3-Muay-thay</ol>
+        <ol>4-Sumo</ol>
+    </div>
+    <div class="navegacao">
+        <div>
+            <a href="../justin/justin.html">
+                <button class="btn">Voltar</button>
+            </a>
+        </div>
+        <img class="fotoLutador" src="../../../img/justin1.png" alt="Foto perfil lutador.">
+        <div>
+            <button id="btnLutar" class="btn" onclick="location.href='../justin/lutarJustin.html'">LUTAR!</button>
+        </div>
+    </div>
+    <script src="../../../js/treino.js"></script>
+</body>
+<footer>
+    copyrigth - Raphhaelm - Resilia - Jan 2022.
+</footer>
+
+</html>

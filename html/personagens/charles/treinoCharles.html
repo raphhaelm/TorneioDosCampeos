@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sala de treinamento</title>
+    <link rel="stylesheet" href="../../../css/style-charles.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="treinamento">
+            Olá Rafael, que bom que se apresentou para o treino hoje, o dia da luta está chegando e você deve chegar
+            preparado para conquistar a vitótia.
+        </div><br>
+        <div class="instrucao">Você pode treinar a modalidade que quiser, mas treinando aquelas que são suas
+            especialidades, o ganho técnico é maior.Você é o melhor em Judô e Capoeira.</div>
+            <div class="treino">Clique para treinar. <button id='btnTreinar' onclick="treino()">Força atual: <span class="frc">7</span></button></div>
+    </div>
+    <div class="treinos">
+        <div class="modalidade">1-Judô</div>
+        <div class="modalidade">2-Jiu-jitsu</div>
+        <div class="modalidade">3-Muay-thay</div>
+        <div class="modalidade">4-Capoeira</div>
+        <!-- Estava Funcionando -->
+    </div>
+    <div class="navegacao">
+        <div><a href="../charles/charles.html"><button class="menu">Retornar</a></button></div>
+        <div><button id="btnLutar" onload="habilitaBotao()" onclick="location.href='../charles/lutarCharles.html'">LUTAR!</button></div>
+        <!-- Tava Funcionando -->
+    </div>
+    <script src="../../../js/treino.js"></script>
+</body>
+
+</html>

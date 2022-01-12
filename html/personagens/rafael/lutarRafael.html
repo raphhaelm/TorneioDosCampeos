@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARENA DE LUTA</title>
+    <link rel="stylesheet" href="../../../css/style-luta.css">
+</head>
+
+<body>
+    <!-- TIREI BOTOES  -->
+    <div class="luta">
+        <div class="adversario">
+            <div class="lutador" id="lut1">Lutador 1</div>
+
+            <a class="figth">
+                <div class="habilidades">
+                    <button class="btnLutar" onclick="modoLuta()">Escolha como atacar!</button>
+                </div>
+            </a>
+        </div>
+
+        <div class="separador">X</div>
+        <div class="adversario">
+            <div class="lutador" id='lut2'>Justin Gaethje</div>
+            <div class="habilidades">Muay-Thay</div>
+            <div class="habilidades">Jiu-Jitsu</div>
+
+        </div>
+    </div>
+
+    <div class="oponentes">
+        <img id="personagem" src="../../../img/rafael2.png" alt="">
+        <div class="instrucao">Seleciona habilidade para vencer a luta! <br>Faça 3 pontos para vencer!</div>
+        <img src="../../../img/justin1.png" alt="">
+    </div>
+    <div class="proximaLuta">
+        <a href="../personagem.html"><button class="btn" id="btn" onclick="proxima()" h>GAME OVER! <br>Tente
+                novamente.</button></a>
+        <a href="../rafael/lutarFinalRafael.html"><button class="btn" id="nextLevel" onclick="proxima()" h>Próxima
+                luta!</button></a>
+    </div>
+    <script src="../../../js/lutarRafael.js"></script>
+</body>
+
+</html>

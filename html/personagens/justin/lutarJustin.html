@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARENA DE LUTA</title>
+    <link rel="stylesheet" href="../../../css/style-luta-justin.css">
+</head>
+
+<body>
+
+    <div class="luta">
+        <div class="adversario">
+            <span id="lut1">
+                Lutador 1
+            </span>
+            <button  class="btn Lutar" onclick="modoLuta()">
+                Lutar!
+            </button>
+        </div>
+
+        <div class="separador">
+            X
+        </div>
+        <div class="adversario">
+            <span id='lut2'>
+                Rafael dos Anjos
+            </span>
+            <span>
+                Judô
+            </span>
+            <span>
+                Capoeira
+            </span>
+
+        </div>
+    </div>
+
+    <div class="oponentes">
+        <img id="personagem" src="../../../img/justin1.png" alt="">
+        <div class="instrucao">Seleciona habilidade para vencer a luta! <br>Faça 3 pontos para vencer!</div>
+        <img src="../../../img/rafael2.png" alt="">
+    </div>
+    <div class="proximaLuta">
+        <a href="../../../gameover.html">
+            <button class= "btn" id="btn" onclick="proxima()" h>
+                GAME OVER! <br>Tente novamente.
+            </button>
+        </a>
+        <a href="../justin/lutarFinalJustin.html">
+            <button class="btn" id="nextLevel" onclick="proxima()" h>
+                Próxima luta!
+            </button>
+        </a>
+    </div>
+    <script src="../../../js/lutarJustin.js"></script>
+</body>
+<footer>
+    copyrigth - Raphhaelm - Resilia - Jan 2022.
+</footer>
+</html>
