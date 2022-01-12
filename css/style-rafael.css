@@ -1,0 +1,162 @@
+html {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/octo2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.lutador {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;   
+    justify-content: center;     
+}
+#lutadores {
+    text-align: center;
+}
+.img {
+    width: 30%;
+     height: 50%;
+    background-image: url('../img/rafael2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+.nome {
+    width: 30%;
+     height: 50%;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 90px;
+    text-decoration: underline red;
+}
+.forca {
+    width: 30%;
+    height: 50%;
+    font-size: 50px;
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+    line-height: 400px;
+}
+.descricao {
+    width: 30%;
+     height: 50%;
+    background-color: rgba(255, 0, 0, 0.8);
+    color: black;
+    font-weight: bold;
+    border-radius: 15px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    padding: 10px;
+}
+
+.btn{
+    top: 100px;
+    position: end;
+    position: relative;
+    width: 25%;   
+}
+button {
+    width: 200px;
+    height: 100px;
+    background-color: purple;
+    color: red;
+    font-size: 20px;
+    border: red solid 2px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+button:hover {
+    width: 201px;
+    height: 102px;
+    text-decoration: underline;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 65%;
+    margin: 10px;
+    justify-content: space-around;
+}
+.treinos {
+    width: 60%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 60%;    
+    margin-top: 20px;
+    
+}
+.treinamento {
+    width: 80%;
+    height: 200px;
+    background-color: rgb(252, 7, 7, 0.6);
+    padding: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+}
+.modalidade {
+    background-color: blue;
+    width: 28%;
+    height: 100px;
+    color: white;
+    padding: 25px;
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 100px;
+}
+.instrucao {
+    background-color: rgba(248, 250, 248, 0.6);
+    width: 80%;
+    height: 200px;
+    padding: 25px;
+    font-size: 20px;
+    color: black;
+}
+
+.navegacao {
+    display: flex;
+    width: 80%;
+    height: 100px;    
+    justify-content: center;
+    margin: 10px;
+    margin-left: 20%;
+    font-weight: 700;
+}
+.treino{
+    width: 50%;
+    font-size: 35px;
+    margin: 25px;
+    color: red;
+}
+.lut1{
+    display: flex;
+    border: gold 1px solid;
+}
+@media (max-width: 500px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+    }
+}

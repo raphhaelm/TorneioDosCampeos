@@ -1,0 +1,112 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+body {
+    background-image: url('../img/octo3.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+
+}
+.luta {
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+#lut1{
+    color: red;
+    font-size: 60px;
+    font-weight: 800;
+}
+#lut2 {
+    color: blue;
+    font-size: 60px;
+    font-weight: 800;
+}
+.adversario {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 300px;
+    width: 30%;
+    color: gold;
+    font-size: 25px;
+}
+.adversario .btn{
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.separador {
+    color: rgb(194, 11, 11);
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+    top: 200px;
+    flex-grow: 1;
+    line-height: 200px;
+
+}
+.oponentes img {
+    width: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    
+}
+.oponentes {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.instrucao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    background-color: rgb(0, 0, 0, 0.8);
+}
+.proximaLuta{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(71, 79, 104);
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    border: blue solid 3px;
+    border-radius: 20px;
+}
+.btn:disabled {
+    background-color: transparent;
+    border: none;
+    color: transparent;
+}
+@media (max-width: 500px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+    }
+}

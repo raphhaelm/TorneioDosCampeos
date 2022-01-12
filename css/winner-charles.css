@@ -1,0 +1,21 @@
+body {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+@media (max-width: 500px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+    }
+}

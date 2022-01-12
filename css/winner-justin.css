@@ -1,0 +1,17 @@
+body {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    background-image: url("../img/justin2.png");
+    background-size: cover;
+
+}
+@media (max-width: 500px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+    }
+}
