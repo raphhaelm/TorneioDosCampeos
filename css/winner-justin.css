@@ -1,6 +1,6 @@
-body {
-    width: 100%;
-    height: auto;
+body {    
+    width: 100vw; 
+    height: 100vh;
     background-color: black;
     background-image: url("../img/justin2.png");
     background-size: cover;
