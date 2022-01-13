@@ -96,7 +96,7 @@ footer{
 }
 .descricao{
     height: 20%;
-    background-color: rgb(0, 0, 255, 0.8) ;
+    background-color: rgba(217, 255, 0, 0.8) ;
     color: black;
     font-weight: bold;
     border-radius: 15px;
@@ -104,6 +104,7 @@ footer{
     font-size: 20px;
     text-align:center;
     line-height: 35px;
+    margin-right: 40px;
 }
 .btn{
     width: 200px;

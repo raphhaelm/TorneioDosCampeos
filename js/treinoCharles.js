@@ -7,7 +7,7 @@ btnLutar.disabled = true;
 let botaoTreinar = document.querySelector('#btn Treinar');
 btnTreinar.disabled = false;
 
-function treino() {
+function escolhaTreino() {
     for (forca; forca <=12; forca++){
     let escolhaTreino = prompt(`Escolha o número da modalidade de treino
 1 - Judô, 2 - Jiu-jitsu, 3 - Muay-thay ou 4 - Capoeira.`);
@@ -33,6 +33,6 @@ function treino() {
         alert(`Bom treino, continue se preparando para luta.
         Forca: ${forca}`);
 
-    }  else { treino(); }
+    }  else { escolhaTreino(); }
     }
 }

@@ -8,20 +8,17 @@ html{
     background-position: center center;
     background-size: 100%;
 }
-
 .menu {
     display: flex;
     justify-content: space-evenly;
     margin-top: 100px;
 }
-
 .container {
     display: flex;
     justify-content: start;
     width: 100%;
     height: 90%;
 }
-
 .titulo {
     justify-content: start;
     padding-top: 150px;
@@ -36,7 +33,6 @@ html{
 .titulo span{
     color: blue;
 }
-
 .btn {
     background: #a20000;
     color: white;
@@ -46,7 +42,6 @@ html{
     width: 200px;
     text-shadow: none;
 }
-
 .btn:hover {
     background: blue;
     color: white;
@@ -85,19 +80,11 @@ footer{
     width: 400px;
     height: 300px;
     margin-left: 35%;
-
 }
 .go{
     background-image: none;
 }
-
-@media (max-width: 500px){
-    body{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        
-    }
+@media (max-width: 400px){
+    
 }
 

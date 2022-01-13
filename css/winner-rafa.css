@@ -8,7 +8,10 @@ body {
 }
 @media (max-width: 500px){
     body{
+        font-size: 14px;
+        background-image: none;
         display: flex;
+        box-sizing: border-box;
         flex-direction: column;
         justify-content: center;
         text-align: center;

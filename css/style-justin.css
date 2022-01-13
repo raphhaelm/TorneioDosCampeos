@@ -102,7 +102,8 @@ footer{
     padding: 20px;
     font-size: 20px;
     text-align:center;
-    line-height: 35px;
+    line-height: 35px;    
+    margin-right: 40px;
 }
 .btn{
     width: 200px;
