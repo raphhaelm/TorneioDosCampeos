@@ -7,7 +7,7 @@ let instrucao = document.querySelector('.instrucao');
 let res = document.querySelector('.separador');
 let btn = document.querySelector('#nextLevel');
 let reset = document.querySelector('#btn');
-let btnLutar = document.querySelector('.btnLutar');
+let btnLutar = document.querySelector('.btn Lutar');
 
 btn.disabled = true;
 reset.disabled = true;

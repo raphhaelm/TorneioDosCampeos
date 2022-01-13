@@ -6,35 +6,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ARENA DE LUTA</title>
-    <link rel="stylesheet" href="../../../css/style-win-charles.css">
+    <link rel="stylesheet" href="../../../css/style-luta-charles.css">
 </head>
 
 <body>
 
     <div class="luta">
         <div class="adversario">
-            <div class="lutador" id="lut1">Lutador 1</div>
-            <button  class="btnLutar" onclick="modoLutaFinal()">Lutar!</button>
-            
+            <div class="lutador" id="lut1">
+                Lutador 1
+            </div>
+            <button class="btn Lutar" onclick="modoLutaFinal()">
+                Lutar!
+            </button>
         </div>
-
-        <div class="separador">X</div>
+        <div class="separador">
+            X
+        </div>
         <div class="adversario">
-            <div class="lutador" id='lut2'>Rafael dos Anjos</div>
-            <div class="habilidades">Judô</div>
-            <div class="habilidades">Capoeira</div>
+            <div class="lutador" id='lut2'>
+                Rafael dos Anjos
+            </div>
+            <ol>
+                Judô
+            </ol>
+            <ol>
+                Capoeira
+            </ol>
 
         </div>
     </div>
 
     <div class="oponentes">
-        <img id="personagem" src="../../../img/charles3.png" alt="">
-        <div class="instrucao">Seleciona habilidade para vencer a luta! <br>Faça 7 pontos para vencer!</div>
-        <img src="../../../img/rafael1.png" alt="">
+        <img id="personagem" src="../../../img/charles3.png" alt="Foto do lutador">
+        <div class="instrucao">
+            Seleciona habilidade para vencer a luta! <br>Faça 7 pontos para vencer!
+        </div>
+        <img src="../../../img/rafael1.png" alt="Foto do lutador">
     </div>
     <div class="proximaLuta">
-        <a href="../../../gameover.html"><button class= "btn" id="btn" onclick="proxima()" h>GAME OVER! <br>Tente novamente.</button></a>
-        <a href="../charles/winnerCharles.html"><button class="btn" id="nextLevel" onclick="proxima()" h>Receber Citurão!</button></a>
+        <a href="../../../gameover.html">
+            <button class="btn" id="btn" onclick="proxima()">
+                GAME OVER! <br>Tente
+                novamente.
+            </button>
+        </a>
+        <a href="../charles/winnerCharles.html"><button class="btn" id="nextLevel" onclick="proxima()">
+            Receber Citurão!
+        </button>
+    </a>
     </div>
     <script src="../../../js/lutarCharles.js"></script>
 </body>

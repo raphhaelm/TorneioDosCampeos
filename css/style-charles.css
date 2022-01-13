@@ -1,14 +1,23 @@
-html,
-body {
-    width: 100%;
-    height: 100%;
+html{    
     background-image: url("../img/octo2.jpg");
-    background-size:auto;
-    box-sizing: border-box;
-    color: white;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     background-color: black;
+}
+html,
+body {    
+    width: 100vw; 
+    height: 100vh;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
     display: flex;
     flex-wrap: wrap;
+    margin: 20px 40px;
+}
+footer{
+    margin-left: 40%;
+    color: rgb(255, 255, 255, 0.6);
 }
 .lutador{
     display: flex;
@@ -21,50 +30,103 @@ body {
     height: 50%;
     text-align: center;
 }
- .img{    
-     background-image: url(../img/charles1.png);
-     background-size: contain; 
-     background-repeat: no-repeat; 
-     background-position: center center; 
+.container{
+    border:yellow solid 2px;
+    color: yellow;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    height: 50%;
+    padding: 10px;
+    background-color: rgb(8, 8, 8, 0.9);
+    text-align: center;
 }
+.container h4{
+    color: whitesmoke;
+}
+.clickTreinar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+    line-height: 100px;
+    width: 30%;
+    height: 40%;
+    color: cornflowerblue;
+    font-size: 25px;
+}
+.modalidades{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    width: 30%;
+    color: black;
+    font-weight: bold;
+}
+.modalidades ol{
+    width: 30%;
+    height: 9%;
+    background-color: yellow
+}
+.navegacao{
+    display: flex;
+    width: 98%;
+    justify-content: space-between;    
+}
+.fotoLutador{
+    max-height: 300px;
+}
+.navegacao div{
+    margin-top: 100px;
+}                                                                                                               
 .nome{ 
     padding: 10px;
     text-align: center;
     font-size: 90px;
-    text-decoration:underline gold;
+    text-decoration:underline yellow
 }
 .forca{
     font-size: 50px;
     text-align: center;  
-    color: gold;
+    color: yellow
     text-decoration: underline;
     line-height: 400px;
 }
 .descricao{
-    background-color: rgb(255, 255, 0, 0.8);
+    height: 20%;
+    background-color: rgb(0, 0, 255, 0.8) ;
     color: black;
     font-weight: bold;
     border-radius: 15px;
+    padding: 20px;
     font-size: 20px;
     text-align:center;
-    line-height: 45px;
+    line-height: 35px;
 }
-.preparacao{
-    border: green 2px solid;
-}
-button{
+.btn{
     width: 200px;
     height: 100px;
-    background-color: black;
-    color: gold;
+    background-color: rgb(103, 104, 71);
+    color: yellow;
     font-size: 20px;
-    border: gold solid 2px;
+    font-weight: bold;
+    border: yellow solid 3px;
     border-radius: 20px;
 }
-button:hover{
+.btn:hover{
     width: 201px;
     height: 102px;
     text-decoration: underline;
+}
+.btn:disabled {
+    background-color: transparent;
+    border: none;
+    color: transparent;
+}
+.nav{
+    margin-top: 50px;
 }
 @media (max-width: 500px){
     body{

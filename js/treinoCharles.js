@@ -2,9 +2,9 @@ var forca = 7;
 var fortalece = 7;
 let valorForca = document.querySelector('.frc');
 
-let btnLutar = document.querySelector('#btnLutar');
+let btnLutar = document.querySelector('#btn Lutar');
 btnLutar.disabled = true;
-let botaoTreinar = document.querySelector('#btnTreinar');
+let botaoTreinar = document.querySelector('#btn Treinar');
 btnTreinar.disabled = false;
 
 function treino() {
